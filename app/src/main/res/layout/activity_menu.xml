@@ -1,0 +1,116 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="4"
+            android:padding="16dp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+    <!-- Button 1: Study -->
+    <Button
+            android:id="@+id/studyButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/ic_study"
+            android:text="Study"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/text_color1" />
+
+    <!-- Button 2: Quiz -->
+    <Button
+            android:id="@+id/quizButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/ic_quiz"
+            android:text="Quiz"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/text_color1" />
+
+    <!-- Button 3: Stats -->
+    <Button
+            android:id="@+id/statsButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/ic_stats"
+            android:text="Stats"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/text_color1" />
+
+    <!-- Button 4: Settings -->
+    <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/ic_settings"
+            android:text="Settings"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/text_color1" />
+
+    <!-- Button 5: Get Certified -->
+    <Button
+            android:id="@+id/certifiedButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/ic_certified"
+            android:text="Get Certified"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/text_color1" />
+
+    <!-- Button 6: Account -->
+    <Button
+            android:id="@+id/accountButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/ic_account"
+            android:text="Account"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/text_color1"
+    />
+
+    <!-- Button 7: About -->
+    <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/ic_about"
+            android:text="About"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/text_color1" />
+
+</GridLayout>

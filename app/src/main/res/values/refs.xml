@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_about"/>
+    <drawable name="rounded_button"/>
+    <drawable name="ic_account"/>
+    <drawable name="ic_certified"/>
+    <drawable name="ic_settings"/>
+    <drawable name="ic_stats"/>
+    <drawable name="ic_quiz"/>
+    <drawable name="ic_study"/>
+</resources>

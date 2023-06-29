@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz Stats"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/text_quizzes_taken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quizzes Taken: " />
+
+    <TextView
+            android:id="@+id/text_quizzes_passed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quizzes Passed: " />
+
+    <TextView
+            android:id="@+id/text_questions_answered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questions Answered: " />
+
+    <TextView
+            android:id="@+id/text_questions_correct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questions Correct: " />
+
+    <TextView
+            android:id="@+id/text_section_ccna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CCNA Section:" />
+
+    <TextView
+            android:id="@+id/text_ccna_questions_answered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questions Answered: " />
+
+    <TextView
+            android:id="@+id/text_ccna_questions_correct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questions Correct: " />
+
+    <TextView
+            android:id="@+id/text_section_networkplus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network+ Section:" />
+
+    <TextView
+            android:id="@+id/text_networkplus_questions_answered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questions Answered: " />
+
+    <TextView
+            android:id="@+id/text_networkplus_questions_correct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questions Correct: " />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz Readiness: " />
+
+    <ProgressBar
+            android:id="@+id/progress_quiz_readiness"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="#F2F2F2">
+
+    <TextView
+            android:id="@+id/text_flashcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Am I ready for the exam?"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="#008577"
+            android:clickable="true" />
+
+    <LinearLayout
+            android:id="@+id/answers_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_flashcard"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+        <RadioButton
+                android:id="@+id/option_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option A"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF" />
+
+        <RadioButton
+                android:id="@+id/option_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option B"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF" />
+
+        <RadioButton
+                android:id="@+id/option_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option C"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF" />
+
+        <RadioButton
+                android:id="@+id/option_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option D"
+                android:padding="12dp"
+                android:textColor="#000000"
+                android:background="#FFFFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>

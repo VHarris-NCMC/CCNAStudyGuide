@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <!-- Number of Questions Selector -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of Questions" />
+
+    <Spinner
+            android:id="@+id/spinner_questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/number_of_questions"
+            android:padding="8dp" />
+
+    <!-- Max Difficulty Slider -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Max Difficulty Override" />
+
+    <SeekBar
+            android:id="@+id/seekbar_difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="5"
+            android:padding="8dp" />
+
+    <!-- Quiz Question Timer Switch -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quiz Question Timer" />
+
+        <Switch
+                android:id="@+id/switch_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp" />
+
+    </LinearLayout>
+
+    <!-- Timer Duration Slider -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timer Duration (in seconds)"
+            android:alpha="0.5" />
+
+    <SeekBar
+            android:id="@+id/seekbar_timer_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="50"
+            android:min="10"
+            android:padding="8dp"
+            android:enabled="false"
+            android:alpha="0.5" />
+
+</LinearLayout>

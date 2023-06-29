@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center">
+
+    <!-- Developer Label -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer: Shady Oak Design LLC"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+    <!-- Disclosure -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not affiliated with Cisco or CompTIA"
+            android:textSize="16sp"
+            android:textColor="#999999"
+            android:padding="8dp" />
+
+    <!-- App Version -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Version: 1.0"
+            android:textSize="16sp"
+            android:textColor="#999999"
+            android:padding="8dp" />
+
+    <!-- Email Shortcut -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#0000FF"
+            android:padding="8dp"
+            android:autoLink="email" />
+
+</LinearLayout>
